@@ -79,7 +79,7 @@ export function ServicesSection() {
                   <div className="space-y-2 mb-8 pt-4 border-t border-[var(--border-subtle)]">
                     {service.deliverables.map((item, dIdx) => (
                       <div key={dIdx} className="flex items-center gap-2 text-xs text-[var(--text-primary)] font-medium">
-                        <Check className="w-3.5 h-3.5 text-[#7A8B72] shrink-0" />
+                        <Check className="w-3.5 h-3.5 text-[#56754b] shrink-0" />
                         <span>{item}</span>
                       </div>
                     ))}

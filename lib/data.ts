@@ -41,18 +41,18 @@ export interface Experience {
 }
 
 export const PERSONAL_INFO = {
-  name: "Muhammad Abubakar",
-  initials: "MA",
+  name: "Muhammad Shahzaman",
+  initials: "MS",
   primaryTitle: "Web Developer & Full Stack Developer",
   secondaryTitle: "CMS Developer | WordPress & Shopify Specialist | UI/UX-Focused Developer | AI & Prompt Engineering",
   heroHeadline: "Building Digital Experiences That Perform, Convert & Stand Out.",
   heroSubheadline: "Architecting high-converting web applications, bespoke WordPress & Shopify storefronts, and precision UI/UX interfaces engineered for international startups, agencies, and businesses.",
-  email: "bakartechnology@gmail.com",
-  linkedIn: "https://linkedin.com/in/abubakardeveloper",
-  github: "https://github.com/bakartechnology",
+  email: "codebyshazzy@gmail.com",
+  linkedIn: "https://www.linkedin.com/in/muhammed-shahzaman-developer",
+  github: "https://github.com/developwithshazzy",
   experienceYears: {
     frontendFullstack: "20 Years",
-    promptEngineering: "10 Years",
+    promptEngineering: "Specialist",
     uiuxDesign: "10 Years",
   },
   availability: "Available for International Remote & Contract Projects",
@@ -173,7 +173,7 @@ export const SERVICES: Service[] = [
   {
     id: "prompt-eng",
     title: "Prompt Engineering & AI Workflows",
-    shortDesc: "Harnessing 10 years of prompt engineering and AI workflow acceleration to build smarter digital products.",
+    shortDesc: "Harnessing prompt engineering and AI workflow acceleration to build smarter digital products.",
     fullDesc: "Applying modern prompt design, LLM integration techniques, and intelligent automation pipelines to accelerate development cycles and empower smart user experiences.",
     deliverables: ["Structured LLM prompt architecture", "AI workflow automation", "Context engineering & guardrails", "Rapid feature prototyping"],
     icon: "Bot"
@@ -236,7 +236,7 @@ export const PROJECTS: Project[] = [
     techStack: ["WordPress", "Custom Layouts", "Gallery Architecture", "SEO", "Responsive Design"],
     liveUrl: "https://jazakbuilders.ca/",
     featured: true,
-    accentColor: "#7A8B72",
+    accentColor: "#56754b",
     caseStudy: {
       overview: "Online portfolio and lead generation engine for Jazak Builders, a premier construction and architectural contracting firm in Canada.",
       challenge: "Showcasing high-resolution architectural imagery without compromising mobile loading speed and Core Web Vitals.",
@@ -311,7 +311,7 @@ export const PROJECTS: Project[] = [
     techStack: ["Shopify", "Liquid", "Storefront Optimization", "Inventory UI", "E-Commerce"],
     liveUrl: "https://teasertackle.com/",
     featured: true,
-    accentColor: "#7A8B72",
+    accentColor: "#56754b",
     caseStudy: {
       overview: "Commercial online equipment destination for passionate anglers and marine fishing enthusiasts.",
       challenge: "Managing extensive technical tackle catalogs with multiple weight, color, and hook sizes while maintaining fast search and filter speeds.",
@@ -349,7 +349,7 @@ export const PROJECTS: Project[] = [
     techStack: ["JavaScript", "HTML5 Audio API", "CSS3 / Modern UI", "Responsive Design", "Vercel"],
     liveUrl: "https://spotify-music-player-xi.vercel.app/",
     featured: true,
-    accentColor: "#7A8B72",
+    accentColor: "#56754b",
     caseStudy: {
       overview: "High-precision streaming audio player web application inspired by contemporary digital audio workstations and modern music streaming leaders.",
       challenge: "Coordinating continuous audio playback with asynchronous scrubbing, time tracking, dynamic album art transitions, and smooth volume attenuation.",
@@ -415,7 +415,7 @@ export const PROJECTS: Project[] = [
     techStack: ["HTML5", "CSS3", "JavaScript", "Form Validation", "Vercel"],
     liveUrl: "https://hccda-registration.vercel.app/",
     featured: false,
-    accentColor: "#7A8B72"
+    accentColor: "#56754b"
   },
   {
     id: "entry-test",
@@ -463,7 +463,7 @@ export const PROJECTS: Project[] = [
     techStack: ["JavaScript", "CSS3 Keyframes", "Canvas Effects", "Vercel"],
     liveUrl: "https://happy-birthday-ahad.vercel.app/",
     featured: false,
-    accentColor: "#7A8B72"
+    accentColor: "#56754b"
   },
   {
     id: "personal-portfolio",
@@ -471,7 +471,7 @@ export const PROJECTS: Project[] = [
     category: "Web Apps",
     type: "Code",
     tagline: "Foundation developer showcase demonstrating foundational web capabilities.",
-    description: "Early live web portfolio highlighting Muhammad Abubakar's developmental journey and project milestones.",
+    description: "Early live web portfolio highlighting Muhammad Shahzaman's developmental journey and project milestones.",
     techStack: ["HTML5", "CSS3", "JavaScript", "Vercel"],
     liveUrl: "https://abubakar-portfolio-plum.vercel.app/",
     featured: false,
@@ -531,7 +531,7 @@ export const TECH_CATEGORIES = [
       { name: "Responsive UI/UX", level: "10 Years Craft", desc: "Fluid layouts from 320px to 4K ultra-wide monitors" },
       { name: "Technical & On-Page SEO", level: "Advanced", desc: "Semantic HTML, JSON-LD schemas, metadata architecture" },
       { name: "AI SEO / GEO / AEO", level: "Specialist", desc: "Answer Engine Optimization, machine-readable facts" },
-      { name: "Prompt Engineering", level: "10 Years Experience", desc: "AI workflows, context engineering, development acceleration" },
+      { name: "Prompt Engineering", level: "Specialist", desc: "AI workflows, context engineering, development acceleration" },
       { name: "Website Performance", level: "Specialist", desc: "Core Web Vitals, code splitting, lazy loading, zero shift" }
     ]
   }

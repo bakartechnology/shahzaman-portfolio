@@ -46,7 +46,7 @@ export async function POST(request: Request) {
           },
           body: JSON.stringify({
             from: process.env.EMAIL_FROM || "onboarding@resend.dev",
-            to: process.env.EMAIL_TO || "bakartechnology@gmail.com",
+            to: process.env.EMAIL_TO || "codebyshazzy@gmail.com",
             subject: `New Portfolio Inquiry from ${name} [${projectType || "General"}]`,
             text: `Name: ${name}\nEmail: ${email}\nCompany: ${company || "N/A"}\nProject Type: ${projectType}\nBudget: ${budgetRange || "N/A"}\n\nMessage:\n${message}`,
           }),
@@ -62,7 +62,7 @@ export async function POST(request: Request) {
     return NextResponse.json(
       {
         success: true,
-        message: "Your inquiry has been successfully transmitted to Muhammad Abubakar.",
+        message: "Your inquiry has been successfully transmitted to Muhammad Shahzaman.",
       },
       { status: 200 }
     );

@@ -63,7 +63,7 @@ export function ProjectsSection() {
             </span>
           </div>
           <div className="flex flex-col border-y sm:border-y-0 sm:border-x border-[var(--border-subtle)] py-4 sm:py-0 sm:px-6">
-            <span className="text-2xl font-bold text-[#7A8B72]">11 Web App Builds</span>
+            <span className="text-2xl font-bold text-[#56754b]">11 Web App Builds</span>
             <span className="text-xs text-[var(--text-secondary)] mt-1">
               Modern React &amp; TypeScript apps, Point of Sale systems, and interactive tools.
             </span>
@@ -122,7 +122,7 @@ export function ProjectsSection() {
                     <div className="flex items-center gap-1.5">
                       <span className="w-2.5 h-2.5 rounded-full bg-[#E76F51]/80" />
                       <span className="w-2.5 h-2.5 rounded-full bg-[#C9A66B]/80" />
-                      <span className="w-2.5 h-2.5 rounded-full bg-[#7A8B72]/80" />
+                      <span className="w-2.5 h-2.5 rounded-full bg-[#56754b]/80" />
                     </div>
 
                     <div className="flex items-center gap-1.5">
@@ -139,7 +139,7 @@ export function ProjectsSection() {
 
                   {/* Browser Address Bar Simulation */}
                   <div className="flex items-center gap-2 px-2.5 py-1 rounded-md bg-[var(--bg-card)] border border-[var(--border-subtle)] text-[11px] font-mono text-[var(--text-muted)] truncate">
-                    <Lock className="w-3 h-3 text-[#7A8B72] shrink-0" />
+                    <Lock className="w-3 h-3 text-[#56754b] shrink-0" />
                     <span className="truncate">{domain}</span>
                   </div>
                 </div>

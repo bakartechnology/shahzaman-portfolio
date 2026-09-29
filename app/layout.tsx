@@ -24,15 +24,15 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://abubakar-portfolio.vercel.app"),
+  metadataBase: new URL("https://shahzaman-portfolio.vercel.app"),
   title: {
-    default: "Muhammad Abubakar | Web Developer & Full Stack Developer | WordPress & Shopify Specialist",
-    template: "%s | Muhammad Abubakar",
+    default: "Muhammad Shahzaman | Web Developer & Full Stack Developer | WordPress & Shopify Specialist",
+    template: "%s | Muhammad Shahzaman",
   },
   description:
-    "Official portfolio of Muhammad Abubakar. Web Developer, Full-Stack Engineer, and CMS Specialist with 18+ verified live production projects across WordPress, Shopify, and Next.js applications.",
+    "Official portfolio of Muhammad Shahzaman. Web Developer, Full-Stack Engineer, and CMS Specialist with 18+ verified live production projects across WordPress, Shopify, and Next.js applications.",
   keywords: [
-    "Muhammad Abubakar",
+    "Muhammad Shahzaman",
     "Web Developer",
     "Full Stack Developer",
     "WordPress Developer",
@@ -46,25 +46,25 @@ export const metadata: Metadata = {
     "Dawley Institute of Technology",
     "International Web Developer",
   ],
-  authors: [{ name: "Muhammad Abubakar", url: "https://linkedin.com/in/abubakardeveloper" }],
-  creator: "Muhammad Abubakar",
+  authors: [{ name: "Muhammad Shahzaman", url: "https://www.linkedin.com/in/muhammed-shahzaman-developer" }],
+  creator: "Muhammad Shahzaman",
   alternates: {
     canonical: "/",
   },
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://abubakar-portfolio.vercel.app",
-    title: "Muhammad Abubakar | Web Developer & Full Stack Developer",
+    url: "https://shahzaman-portfolio.vercel.app",
+    title: "Muhammad Shahzaman | Web Developer & Full Stack Developer",
     description:
-      "Explore 18+ verified live production projects, bespoke WordPress and Shopify storefronts, and full-stack web applications by Muhammad Abubakar.",
-    siteName: "Muhammad Abubakar Portfolio",
+      "Explore 18+ verified live production projects, bespoke WordPress and Shopify storefronts, and full-stack web applications by Muhammad Shahzaman.",
+    siteName: "Muhammad Shahzaman Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Muhammad Abubakar | Web Developer & Full Stack Developer",
+    title: "Muhammad Shahzaman | Web Developer & Full Stack Developer",
     description:
-      "Production-ready portfolio of Muhammad Abubakar. Full-Stack Developer, WordPress & Shopify Specialist.",
+      "Production-ready portfolio of Muhammad Shahzaman. Full-Stack Developer, WordPress & Shopify Specialist.",
   },
   robots: {
     index: true,
@@ -90,12 +90,12 @@ export default function RootLayout({
     "@graph": [
       {
         "@type": "Person",
-        "@id": "https://abubakar-portfolio.vercel.app/#person",
+        "@id": "https://shahzaman-portfolio.vercel.app/#person",
         name: PERSONAL_INFO.name,
         jobTitle: "Web Developer & Full Stack Developer",
         description: PERSONAL_INFO.heroSubheadline,
         email: `mailto:${PERSONAL_INFO.email}`,
-        url: "https://abubakar-portfolio.vercel.app",
+        url: "https://shahzaman-portfolio.vercel.app",
         sameAs: [
           PERSONAL_INFO.linkedIn,
           PERSONAL_INFO.github,
@@ -121,13 +121,13 @@ export default function RootLayout({
       },
       {
         "@type": "WebSite",
-        "@id": "https://abubakar-portfolio.vercel.app/#website",
-        url: "https://abubakar-portfolio.vercel.app",
-        name: "Muhammad Abubakar Portfolio",
+        "@id": "https://shahzaman-portfolio.vercel.app/#website",
+        url: "https://shahzaman-portfolio.vercel.app",
+        name: "Muhammad Shahzaman Portfolio",
         author: {
-          "@id": "https://abubakar-portfolio.vercel.app/#person",
+          "@id": "https://shahzaman-portfolio.vercel.app/#person",
         },
-        description: "Official software development and CMS engineering portfolio of Muhammad Abubakar.",
+        description: "Official software development and CMS engineering portfolio of Muhammad Shahzaman.",
       },
     ],
   };

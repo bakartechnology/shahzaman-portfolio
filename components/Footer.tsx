@@ -35,7 +35,7 @@ export function Footer() {
             <div className="flex items-center gap-3">
               <a
                 href={`mailto:${PERSONAL_INFO.email}`}
-                aria-label="Email Muhammad Abubakar"
+                aria-label="Email Muhammad Shahzaman"
                 className="p-2.5 rounded-full border border-[var(--border-subtle)] bg-[var(--bg-card)] hover:border-[#E76F51] text-[var(--text-secondary)] hover:text-[#E76F51] transition-all"
               >
                 <Mail className="w-4 h-4" />
@@ -45,7 +45,7 @@ export function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn profile"
-                className="p-2.5 rounded-full border border-[var(--border-subtle)] bg-[var(--bg-card)] hover:border-[#7A8B72] text-[var(--text-secondary)] hover:text-[#7A8B72] transition-all"
+                className="p-2.5 rounded-full border border-[var(--border-subtle)] bg-[var(--bg-card)] hover:border-[#56754b] text-[var(--text-secondary)] hover:text-[#56754b] transition-all"
               >
                 <LinkedInIcon className="w-4 h-4" />
               </a>
@@ -143,7 +143,7 @@ export function Footer() {
           <div className="flex flex-col justify-between">
             <div>
               <h4 className="text-xs font-mono font-bold uppercase tracking-wider text-[var(--text-primary)] mb-4 flex items-center gap-1.5">
-                <Globe className="w-3.5 h-3.5 text-[#7A8B72]" />
+                <Globe className="w-3.5 h-3.5 text-[#56754b]" />
                 <span>Global Reach</span>
               </h4>
               <p className="text-[11px] text-[var(--text-secondary)] leading-relaxed mb-4">
@@ -164,7 +164,7 @@ export function Footer() {
         {/* Bottom Sub-footer */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[var(--text-muted)]">
           <p>
-            &copy; {new Date().getFullYear()} Muhammad Abubakar. All rights reserved. Strictly verified record.
+            &copy; {new Date().getFullYear()} Muhammad Shahzaman. All rights reserved. Strictly verified record.
           </p>
           <div className="flex items-center gap-4 text-[11px] font-mono">
             <span>Next.js 16</span>

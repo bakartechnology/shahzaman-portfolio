@@ -69,7 +69,7 @@ export function CvModal({ isOpen, onClose }: CvModalProps) {
 
             <a
               href="/api/cv"
-              download="Muhammad_Abubakar_CV.html"
+              download="Muhammad_Shahzaman_CV.html"
               className="cta-terracotta inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-semibold shadow-xs"
             >
               <Download className="w-3.5 h-3.5" />
@@ -110,15 +110,15 @@ export function CvModal({ isOpen, onClose }: CvModalProps) {
                 </a>
               </div>
               <div className="flex items-center sm:justify-end gap-1.5">
-                <LinkedInIcon className="w-3.5 h-3.5 text-[#7A8B72]" />
+                <LinkedInIcon className="w-3.5 h-3.5 text-[#56754b]" />
                 <a href={PERSONAL_INFO.linkedIn} target="_blank" rel="noopener noreferrer" className="hover:underline">
-                  linkedin.com/in/abubakardeveloper
+                  linkedin.com/in/muhammed-shahzaman-developer
                 </a>
               </div>
               <div className="flex items-center sm:justify-end gap-1.5">
                 <GitHubIcon className="w-3.5 h-3.5 text-[#C9A66B]" />
                 <a href={PERSONAL_INFO.github} target="_blank" rel="noopener noreferrer" className="hover:underline">
-                  github.com/bakartechnology
+                  github.com/developwithshazzy
                 </a>
               </div>
             </div>
@@ -186,7 +186,7 @@ export function CvModal({ isOpen, onClose }: CvModalProps) {
                   <ul className="space-y-2 mb-3">
                     {exp.responsibilities.map((r, rIdx) => (
                       <li key={rIdx} className="flex items-start gap-2.5 text-xs text-[var(--text-secondary)] leading-relaxed">
-                        <CheckCircle2 className="w-3.5 h-3.5 text-[#7A8B72] shrink-0 mt-0.5" />
+                        <CheckCircle2 className="w-3.5 h-3.5 text-[#56754b] shrink-0 mt-0.5" />
                         <span>{r}</span>
                       </li>
                     ))}

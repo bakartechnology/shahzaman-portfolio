@@ -29,7 +29,7 @@ export function Hero({ onOpenCvModal }: { onOpenCvModal: () => void }) {
         aria-hidden="true"
       />
       <div
-        className="pointer-events-none absolute top-1/2 right-0 w-[450px] h-[450px] bg-[#7A8B72]/10 rounded-full blur-3xl -z-10"
+        className="pointer-events-none absolute top-1/2 right-0 w-[450px] h-[450px] bg-[#56754b]/10 rounded-full blur-3xl -z-10"
         aria-hidden="true"
       />
 
@@ -44,7 +44,7 @@ export function Hero({ onOpenCvModal }: { onOpenCvModal: () => void }) {
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-[#E76F51]"></span>
               </span>
               <span className="text-xs font-semibold text-[var(--text-secondary)] uppercase tracking-wider">
-                Muhammad Abubakar &bull; Full-Stack &amp; CMS Engineer
+                Muhammad Shahzaman &bull; Full-Stack &amp; CMS Engineer
               </span>
             </div>
 
@@ -75,7 +75,7 @@ export function Hero({ onOpenCvModal }: { onOpenCvModal: () => void }) {
                 </span>
               </div>
               <div className="flex flex-col border-x border-[var(--border-subtle)] px-2 sm:px-3">
-                <span className="text-lg sm:text-xl font-bold text-[#7A8B72] tracking-tight">
+                <span className="text-lg sm:text-xl font-bold text-[#56754b] tracking-tight">
                   {PERSONAL_INFO.experienceYears.uiuxDesign}
                 </span>
                 <span className="text-[11px] sm:text-xs text-[var(--text-secondary)] font-medium leading-tight">
@@ -111,7 +111,7 @@ export function Hero({ onOpenCvModal }: { onOpenCvModal: () => void }) {
 
               <button
                 onClick={onOpenCvModal}
-                className="inline-flex items-center justify-center gap-2 px-5 py-3.5 rounded-full text-sm font-semibold text-[#7A8B72] hover:text-[var(--text-primary)] hover:bg-[#7A8B72]/10 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#7A8B72]"
+                className="inline-flex items-center justify-center gap-2 px-5 py-3.5 rounded-full text-sm font-semibold text-[#56754b] hover:text-[var(--text-primary)] hover:bg-[#56754b]/10 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#56754b]"
               >
                 <Download className="w-4 h-4" />
                 <span>Download CV</span>
@@ -120,7 +120,7 @@ export function Hero({ onOpenCvModal }: { onOpenCvModal: () => void }) {
 
             {/* International Reach strip */}
             <div className="mt-8 pt-6 border-t border-[var(--border-subtle)] flex items-center gap-2 text-xs text-[var(--text-muted)] font-medium">
-              <Globe2 className="w-4 h-4 text-[#7A8B72] shrink-0" />
+              <Globe2 className="w-4 h-4 text-[#56754b] shrink-0" />
               <span>
                 Collaborating with teams across UK, US, Europe, Pakistan &amp; worldwide.
               </span>
@@ -135,7 +135,7 @@ export function Hero({ onOpenCvModal }: { onOpenCvModal: () => void }) {
                 <Sparkles className="w-3.5 h-3.5" />
                 <span>React 19 &bull; Next.js 16</span>
               </div>
-              <div className="hidden sm:flex items-center gap-2 absolute -bottom-4 -left-3 z-20 px-3 py-1.5 rounded-full bg-[var(--bg-surface-elevated)] border border-[#7A8B72]/40 shadow-md text-xs font-semibold text-[#7A8B72]">
+              <div className="hidden sm:flex items-center gap-2 absolute -bottom-4 -left-3 z-20 px-3 py-1.5 rounded-full bg-[var(--bg-surface-elevated)] border border-[#56754b]/40 shadow-md text-xs font-semibold text-[#56754b]">
                 <CheckCircle2 className="w-3.5 h-3.5" />
                 <span>Shopify &amp; WordPress Live</span>
               </div>
@@ -147,9 +147,9 @@ export function Hero({ onOpenCvModal }: { onOpenCvModal: () => void }) {
                   <div className="flex items-center gap-2">
                     <span className="w-3 h-3 rounded-full bg-[#E76F51]/80 inline-block" />
                     <span className="w-3 h-3 rounded-full bg-[#C9A66B]/80 inline-block" />
-                    <span className="w-3 h-3 rounded-full bg-[#7A8B72]/80 inline-block" />
+                    <span className="w-3 h-3 rounded-full bg-[#56754b]/80 inline-block" />
                     <span className="ml-2 text-xs font-mono text-[var(--text-muted)]">
-                      abubakar-workspace.tsx
+                      shahzaman-workspace.tsx
                     </span>
                   </div>
 
@@ -201,13 +201,13 @@ export function Hero({ onOpenCvModal }: { onOpenCvModal: () => void }) {
                       </div>
                       <div className="pl-4">
                         <span className="text-[var(--text-primary)]">name:</span>{" "}
-                        <span className="text-[#7A8B72]">&quot;Muhammad Abubakar&quot;</span>,
+                        <span className="text-[#56754b]">&quot;Muhammad Shahzaman&quot;</span>,
                       </div>
                       <div className="pl-4">
                         <span className="text-[var(--text-primary)]">coreStack:</span> [
-                        <span className="text-[#7A8B72]">&quot;Next.js&quot;</span>,{" "}
-                        <span className="text-[#7A8B72]">&quot;TypeScript&quot;</span>,{" "}
-                        <span className="text-[#7A8B72]">&quot;Tailwind&quot;</span>],
+                        <span className="text-[#56754b]">&quot;Next.js&quot;</span>,{" "}
+                        <span className="text-[#56754b]">&quot;TypeScript&quot;</span>,{" "}
+                        <span className="text-[#56754b]">&quot;Tailwind&quot;</span>],
                       </div>
                       <div className="pl-4">
                         <span className="text-[var(--text-primary)]">cmsMastery:</span> &#123;
@@ -223,7 +223,7 @@ export function Hero({ onOpenCvModal }: { onOpenCvModal: () => void }) {
                       <div className="pl-4">&#125;,</div>
                       <div className="pl-4">
                         <span className="text-[var(--text-primary)]">aiAcceleration:</span>{" "}
-                        <span className="text-[#C9A66B]">&quot;10 Yrs Prompt Engineering&quot;</span>,
+                        <span className="text-[#C9A66B]">&quot;Prompt Engineering&quot;</span>,
                       </div>
                       <div className="pl-4">
                         <span className="text-[var(--text-primary)]">liveProjects:</span>{" "}
@@ -231,7 +231,7 @@ export function Hero({ onOpenCvModal }: { onOpenCvModal: () => void }) {
                       </div>
                       <div className="pl-4">
                         <span className="text-[var(--text-primary)]">status:</span>{" "}
-                        <span className="text-[#7A8B72]">&quot;Ready for Hire&quot;</span>
+                        <span className="text-[#56754b]">&quot;Ready for Hire&quot;</span>
                       </div>
                       <div>&#125;;</div>
                     </div>
@@ -245,7 +245,7 @@ export function Hero({ onOpenCvModal }: { onOpenCvModal: () => void }) {
                       <div className="space-y-2">
                         <div className="flex items-center justify-between p-2.5 rounded-lg bg-[var(--bg-surface)] border border-[var(--border-subtle)]">
                           <div className="flex items-center gap-2">
-                            <span className="w-2 h-2 rounded-full bg-[#7A8B72]" />
+                            <span className="w-2 h-2 rounded-full bg-[#56754b]" />
                             <span className="font-medium text-xs text-[var(--text-primary)]">
                               Dawley Institute (dawley.io)
                             </span>
@@ -254,16 +254,16 @@ export function Hero({ onOpenCvModal }: { onOpenCvModal: () => void }) {
                         </div>
                         <div className="flex items-center justify-between p-2.5 rounded-lg bg-[var(--bg-surface)] border border-[var(--border-subtle)]">
                           <div className="flex items-center gap-2">
-                            <span className="w-2 h-2 rounded-full bg-[#7A8B72]" />
+                            <span className="w-2 h-2 rounded-full bg-[#56754b]" />
                             <span className="font-medium text-xs text-[var(--text-primary)]">
                               Dawley Cafe (dawleycafe.com)
                             </span>
                           </div>
-                          <span className="text-[11px] font-mono text-[#7A8B72]">Shopify</span>
+                          <span className="text-[11px] font-mono text-[#56754b]">Shopify</span>
                         </div>
                         <div className="flex items-center justify-between p-2.5 rounded-lg bg-[var(--bg-surface)] border border-[var(--border-subtle)]">
                           <div className="flex items-center gap-2">
-                            <span className="w-2 h-2 rounded-full bg-[#7A8B72]" />
+                            <span className="w-2 h-2 rounded-full bg-[#56754b]" />
                             <span className="font-medium text-xs text-[var(--text-primary)]">
                               Jazak Builders (jazakbuilders.ca)
                             </span>
@@ -272,12 +272,12 @@ export function Hero({ onOpenCvModal }: { onOpenCvModal: () => void }) {
                         </div>
                         <div className="flex items-center justify-between p-2.5 rounded-lg bg-[var(--bg-surface)] border border-[var(--border-subtle)]">
                           <div className="flex items-center gap-2">
-                            <span className="w-2 h-2 rounded-full bg-[#7A8B72]" />
+                            <span className="w-2 h-2 rounded-full bg-[#56754b]" />
                             <span className="font-medium text-xs text-[var(--text-primary)]">
                               Teaser Tackle (teasertackle.com)
                             </span>
                           </div>
-                          <span className="text-[11px] font-mono text-[#7A8B72]">Shopify</span>
+                          <span className="text-[11px] font-mono text-[#56754b]">Shopify</span>
                         </div>
                       </div>
                     </div>
@@ -290,25 +290,25 @@ export function Hero({ onOpenCvModal }: { onOpenCvModal: () => void }) {
                       </div>
                       <div className="grid grid-cols-2 gap-2.5">
                         <div className="p-3 rounded-lg bg-[var(--bg-surface)] border border-[var(--border-subtle)] text-center">
-                          <div className="text-2xl font-bold text-[#7A8B72]">100</div>
+                          <div className="text-2xl font-bold text-[#56754b]">100</div>
                           <div className="text-[11px] font-medium text-[var(--text-secondary)]">
                             Performance
                           </div>
                         </div>
                         <div className="p-3 rounded-lg bg-[var(--bg-surface)] border border-[var(--border-subtle)] text-center">
-                          <div className="text-2xl font-bold text-[#7A8B72]">100</div>
+                          <div className="text-2xl font-bold text-[#56754b]">100</div>
                           <div className="text-[11px] font-medium text-[var(--text-secondary)]">
                             Accessibility
                           </div>
                         </div>
                         <div className="p-3 rounded-lg bg-[var(--bg-surface)] border border-[var(--border-subtle)] text-center">
-                          <div className="text-2xl font-bold text-[#7A8B72]">100</div>
+                          <div className="text-2xl font-bold text-[#56754b]">100</div>
                           <div className="text-[11px] font-medium text-[var(--text-secondary)]">
                             Best Practices
                           </div>
                         </div>
                         <div className="p-3 rounded-lg bg-[var(--bg-surface)] border border-[var(--border-subtle)] text-center">
-                          <div className="text-2xl font-bold text-[#7A8B72]">100</div>
+                          <div className="text-2xl font-bold text-[#56754b]">100</div>
                           <div className="text-[11px] font-medium text-[var(--text-secondary)]">
                             Technical SEO
                           </div>

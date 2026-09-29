@@ -96,7 +96,7 @@ export function ContactSection() {
             particleCount: 80,
             spread: 70,
             origin: { y: 0.7 },
-            colors: ["#E76F51", "#7A8B72", "#C9A66B"],
+            colors: ["#E76F51", "#56754b", "#C9A66B"],
           });
         } catch {
           // graceful fallback if canvas-confetti is not loaded
@@ -107,7 +107,7 @@ export function ContactSection() {
       }
     } catch {
       setStatus("error");
-      setErrorMessage("Network issue. Please send an email directly to bakartechnology@gmail.com.");
+      setErrorMessage("Network issue. Please send an email directly to codebyshazzy@gmail.com.");
     }
   };
 
@@ -157,9 +157,9 @@ export function ContactSection() {
                   href={PERSONAL_INFO.linkedIn}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="card-warm p-4 rounded-xl flex items-center gap-4 group hover:border-[#7A8B72]/40"
+                  className="card-warm p-4 rounded-xl flex items-center gap-4 group hover:border-[#56754b]/40"
                 >
-                  <div className="w-10 h-10 rounded-lg bg-[var(--bg-surface)] flex items-center justify-center text-[#7A8B72] group-hover:bg-[#7A8B72] group-hover:text-white transition-colors">
+                  <div className="w-10 h-10 rounded-lg bg-[var(--bg-surface)] flex items-center justify-center text-[#56754b] group-hover:bg-[#56754b] group-hover:text-white transition-colors">
                     <LinkedInIcon className="w-5 h-5" />
                   </div>
                   <div>
@@ -167,7 +167,7 @@ export function ContactSection() {
                       LinkedIn Network
                     </span>
                     <span className="text-sm font-bold text-[var(--text-primary)]">
-                      linkedin.com/in/abubakardeveloper
+                      linkedin.com/in/muhammed-shahzaman-developer
                     </span>
                   </div>
                 </a>
@@ -186,7 +186,7 @@ export function ContactSection() {
                       GitHub Repositories
                     </span>
                     <span className="text-sm font-bold text-[var(--text-primary)]">
-                      github.com/bakartechnology
+                      github.com/developwithshazzy
                     </span>
                   </div>
                 </a>
@@ -196,7 +196,7 @@ export function ContactSection() {
             {/* Response Time & Timezone Guarantee */}
             <div className="p-4 rounded-xl bg-[var(--bg-surface)] border border-[var(--border-subtle)] space-y-2 text-xs text-[var(--text-secondary)]">
               <div className="flex items-center gap-2 text-[var(--text-primary)] font-semibold">
-                <Clock className="w-4 h-4 text-[#7A8B72]" />
+                <Clock className="w-4 h-4 text-[#56754b]" />
                 <span>Guaranteed Response within 24 Hours</span>
               </div>
               <p>
@@ -210,7 +210,7 @@ export function ContactSection() {
             <div className="card-warm p-6 sm:p-10 rounded-3xl">
               {status === "success" ? (
                 <div className="py-12 text-center space-y-4">
-                  <div className="w-16 h-16 rounded-full bg-[#7A8B72]/15 text-[#7A8B72] mx-auto flex items-center justify-center">
+                  <div className="w-16 h-16 rounded-full bg-[#56754b]/15 text-[#56754b] mx-auto flex items-center justify-center">
                     <CheckCircle2 className="w-8 h-8" />
                   </div>
                   <h3 className="text-2xl font-editorial font-bold text-[var(--text-primary)]">

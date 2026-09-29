@@ -35,7 +35,7 @@ export function ExperienceSection() {
                   className={`absolute -left-[31px] sm:-left-[47px] top-1.5 w-6 h-6 rounded-full border-2 flex items-center justify-center transition-colors duration-200 ${
                     exp.featured
                       ? "bg-[#E76F51] border-white text-white shadow-sm"
-                      : "bg-[var(--bg-card)] border-[#7A8B72] text-[#7A8B72]"
+                      : "bg-[var(--bg-card)] border-[#56754b] text-[#56754b]"
                   }`}
                 >
                   <Briefcase className="w-3 h-3" />
@@ -65,7 +65,7 @@ export function ExperienceSection() {
 
                       <div className="flex flex-wrap items-center gap-3 text-xs sm:text-sm text-[var(--text-secondary)] font-medium">
                         <span className="flex items-center gap-1.5 text-[var(--text-primary)] font-semibold">
-                          <Building2 className="w-3.5 h-3.5 text-[#7A8B72]" />
+                          <Building2 className="w-3.5 h-3.5 text-[#56754b]" />
                           {exp.company}
                         </span>
                         <span>&bull;</span>
@@ -100,7 +100,7 @@ export function ExperienceSection() {
                       <ul className="space-y-3 mb-6">
                         {exp.responsibilities.map((resp, rIdx) => (
                           <li key={rIdx} className="flex items-start gap-3 text-xs sm:text-sm text-[var(--text-secondary)] leading-relaxed">
-                            <CheckCircle2 className="w-4 h-4 text-[#7A8B72] shrink-0 mt-0.5" />
+                            <CheckCircle2 className="w-4 h-4 text-[#56754b] shrink-0 mt-0.5" />
                             <span>{resp}</span>
                           </li>
                         ))}

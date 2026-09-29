@@ -105,7 +105,7 @@ export function CaseStudyModal({ project, onClose }: CaseStudyModalProps) {
 
             <div className="p-4 rounded-xl bg-[var(--bg-surface)] border border-[var(--border-subtle)]">
               <div className="flex items-center gap-2 text-xs font-bold text-[var(--text-primary)] mb-2">
-                <Layers className="w-4 h-4 text-[#7A8B72]" />
+                <Layers className="w-4 h-4 text-[#56754b]" />
                 <span>Architectural Approach</span>
               </div>
               <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
@@ -125,7 +125,7 @@ export function CaseStudyModal({ project, onClose }: CaseStudyModalProps) {
                   key={idx}
                   className="flex items-start gap-2.5 p-3 rounded-lg bg-[var(--bg-card)] border border-[var(--border-subtle)] text-xs text-[var(--text-primary)] font-medium"
                 >
-                  <CheckCircle2 className="w-4 h-4 text-[#7A8B72] shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-4 h-4 text-[#56754b] shrink-0 mt-0.5" />
                   <span>{item}</span>
                 </div>
               ))}
@@ -153,7 +153,7 @@ export function CaseStudyModal({ project, onClose }: CaseStudyModalProps) {
         {/* Modal Footer with Actions */}
         <div className="pt-5 border-t border-[var(--border-subtle)] flex flex-col sm:flex-row items-center justify-between gap-4">
           <span className="text-xs text-[var(--text-muted)]">
-            Verified live project in Muhammad Abubakar&apos;s production portfolio.
+            Verified live project in Muhammad Shahzaman&apos;s production portfolio.
           </span>
 
           <div className="flex items-center gap-3 w-full sm:w-auto">

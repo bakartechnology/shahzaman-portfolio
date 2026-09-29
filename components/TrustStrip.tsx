@@ -20,7 +20,7 @@ export function TrustStrip() {
     { label: "TypeScript Engineering", icon: Code, tag: "Type-Safe" },
     { label: "Tailwind CSS & Design Tokens", icon: Palette, tag: "Precision UI" },
     { label: "Technical & AI SEO (AEO/GEO)", icon: Search, tag: "Discoverability" },
-    { label: "Prompt Engineering & AI Workflows", icon: Cpu, tag: "10 Yrs Experience" },
+    { label: "Prompt Engineering & AI Workflows", icon: Cpu, tag: "AI Workflows" },
     { label: "Core Web Vitals & Speed", icon: ShieldCheck, tag: "100% Score Target" },
   ];
 
@@ -37,7 +37,7 @@ export function TrustStrip() {
             </h2>
           </div>
           <div className="flex items-center gap-2 text-xs text-[var(--text-secondary)] font-medium">
-            <CheckCircle2 className="w-4 h-4 text-[#7A8B72]" />
+            <CheckCircle2 className="w-4 h-4 text-[#56754b]" />
             <span>Designed for startups, software agencies, e-commerce retailers &amp; global tech teams</span>
           </div>
         </div>

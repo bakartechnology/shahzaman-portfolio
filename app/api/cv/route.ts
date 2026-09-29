@@ -6,17 +6,17 @@ export async function GET() {
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Muhammad Abubakar - Curriculum Vitae</title>
+  <title>Muhammad Shahzaman - Curriculum Vitae</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     :root {
       --primary: #E76F51;
-      --secondary: #7A8B72;
-      --dark: #2B2622;
-      --muted: #6F665F;
-      --bg: #FFF9F2;
+      --secondary: #56754b;
+      --dark: #363636;
+      --muted: #575757;
+      --bg: #f6f6f6;
       --card-bg: #FFFFFF;
-      --border: #E8DFD5;
+      --border: #e0e0e0;
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
@@ -31,19 +31,19 @@ export async function GET() {
       margin: 0 auto;
       background: var(--card-bg);
       padding: 40px;
+      border-radius: 8px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.05);
       border: 1px solid var(--border);
-      border-radius: 12px;
-      box-shadow: 0 4px 16px rgba(43, 38, 34, 0.05);
     }
     header {
       border-bottom: 2px solid var(--border);
-      padding-bottom: 24px;
-      margin-bottom: 24px;
+      padding-bottom: 20px;
+      margin-bottom: 25px;
       display: flex;
       justify-content: space-between;
       align-items: flex-start;
       flex-wrap: wrap;
-      gap: 16px;
+      gap: 15px;
     }
     h1 {
       font-size: 28px;
@@ -51,69 +51,43 @@ export async function GET() {
       margin-bottom: 4px;
     }
     .title {
-      font-size: 15px;
+      font-size: 16px;
       font-weight: 600;
       color: var(--primary);
     }
     .subtitle {
       font-size: 13px;
       color: var(--muted);
+      margin-top: 2px;
     }
     .contact-info {
       font-size: 13px;
       color: var(--muted);
-      text-align: right;
+      line-height: 1.6;
     }
     .contact-info a {
-      color: var(--primary);
+      color: var(--dark);
       text-decoration: none;
     }
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
     section {
-      margin-bottom: 24px;
+      margin-bottom: 25px;
     }
     h2 {
-      font-size: 13px;
+      font-size: 14px;
       text-transform: uppercase;
       letter-spacing: 1px;
       color: var(--primary);
       border-bottom: 1px solid var(--border);
       padding-bottom: 6px;
-      margin-bottom: 14px;
-    }
-    p {
-      font-size: 13px;
-      color: var(--muted);
       margin-bottom: 12px;
     }
-    .exp-item {
-      margin-bottom: 18px;
-    }
-    .exp-header {
-      display: flex;
-      justify-content: space-between;
-      margin-bottom: 4px;
+    p {
       font-size: 14px;
-      font-weight: bold;
       color: var(--dark);
-    }
-    .exp-duration {
-      font-size: 12px;
-      color: var(--primary);
-      font-family: monospace;
-    }
-    .exp-env {
-      font-size: 12px;
-      color: var(--muted);
-      font-style: italic;
-      margin-bottom: 8px;
-    }
-    ul {
-      padding-left: 20px;
-      font-size: 12px;
-      color: var(--muted);
-    }
-    li {
-      margin-bottom: 6px;
+      line-height: 1.6;
     }
     .skills-grid {
       display: grid;
@@ -127,25 +101,65 @@ export async function GET() {
       border: 1px solid var(--border);
     }
     .skill-title {
+      font-size: 13px;
       font-weight: bold;
-      font-size: 12px;
-      color: var(--dark);
       margin-bottom: 4px;
+      color: var(--dark);
     }
     .skill-list {
       font-size: 12px;
       color: var(--muted);
+      line-height: 1.5;
+    }
+    .exp-item {
+      margin-bottom: 20px;
+      padding-bottom: 15px;
+      border-bottom: 1px dashed var(--border);
+    }
+    .exp-item:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+    .exp-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      font-size: 15px;
+      font-weight: bold;
+      color: var(--dark);
+      margin-bottom: 2px;
+    }
+    .exp-duration {
+      font-size: 12px;
+      color: var(--primary);
+      font-family: monospace;
+    }
+    .exp-env {
+      font-size: 12px;
+      color: var(--muted);
+      font-style: italic;
+      margin-bottom: 8px;
+    }
+    ul {
+      margin-left: 18px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    li {
+      margin-bottom: 4px;
+      line-height: 1.5;
     }
     .print-btn {
       background: var(--primary);
       color: white;
       border: none;
       padding: 8px 16px;
-      border-radius: 6px;
+      font-size: 13px;
+      border-radius: 20px;
       cursor: pointer;
-      font-size: 12px;
-      font-weight: 600;
       margin-bottom: 20px;
+      float: right;
     }
     @media print {
       body { background: white; padding: 0; }
@@ -165,15 +179,15 @@ export async function GET() {
       </div>
       <div class="contact-info">
         <div>Email: <a href="mailto:${PERSONAL_INFO.email}">${PERSONAL_INFO.email}</a></div>
-        <div>LinkedIn: <a href="${PERSONAL_INFO.linkedIn}">linkedin.com/in/abubakardeveloper</a></div>
-        <div>GitHub: <a href="${PERSONAL_INFO.github}">github.com/bakartechnology</a></div>
+        <div>LinkedIn: <a href="${PERSONAL_INFO.linkedIn}">linkedin.com/in/muhammed-shahzaman-developer</a></div>
+        <div>GitHub: <a href="${PERSONAL_INFO.github}">github.com/developwithshazzy</a></div>
       </div>
     </header>
 
     <section>
       <h2>Professional Summary</h2>
       <p>
-        Experienced Web Developer, Full-Stack Engineer, and CMS Specialist with 20 years frontend/full-stack craft, 10 years UI/UX architecture, and 10 years prompt engineering experience. Delivered 18+ verified live production projects spanning commercial WordPress portals, bespoke Shopify e-commerce storefronts, and responsive React &amp; TypeScript applications.
+        Experienced Web Developer, Full-Stack Engineer, and CMS Specialist. Delivered 18+ verified live production projects spanning commercial WordPress portals, bespoke Shopify e-commerce storefronts, and responsive React &amp; TypeScript applications.
       </p>
     </section>
 
@@ -194,6 +208,7 @@ export async function GET() {
         </div>
       </div>
     </section>
+
 
     <section>
       <h2>Professional Experience (Dawley Institute of Technology)</h2>
@@ -219,7 +234,7 @@ export async function GET() {
   return new NextResponse(cvHtml, {
     headers: {
       "Content-Type": "text/html; charset=utf-8",
-      "Content-Disposition": 'attachment; filename="Muhammad_Abubakar_CV.html"',
+      "Content-Disposition": 'attachment; filename="Muhammad_Shahzaman_CV.html"',
     },
   });
 }

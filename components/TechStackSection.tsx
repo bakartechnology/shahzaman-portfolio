@@ -51,7 +51,7 @@ export function TechStackSection() {
                 {TECH_CATEGORIES[activeCategoryIndex].description}
               </p>
             </div>
-            <div className="inline-flex items-center gap-1.5 text-xs text-[#7A8B72] font-semibold">
+            <div className="inline-flex items-center gap-1.5 text-xs text-[#56754b] font-semibold">
               <ShieldCheck className="w-4 h-4" />
               <span>Production Tested Standards</span>
             </div>
@@ -78,7 +78,7 @@ export function TechStackSection() {
                   </p>
                 </div>
                 <div className="mt-4 pt-3 border-t border-[var(--border-subtle)] flex items-center gap-1 text-[11px] text-[var(--text-muted)] font-medium">
-                  <CheckCircle2 className="w-3.5 h-3.5 text-[#7A8B72]" />
+                  <CheckCircle2 className="w-3.5 h-3.5 text-[#56754b]" />
                   <span>Verified Skill</span>
                 </div>
               </div>
@@ -89,7 +89,7 @@ export function TechStackSection() {
         {/* Global Architecture Quality Note */}
         <div className="mt-12 p-6 rounded-2xl bg-[var(--bg-card)] border border-[var(--border-subtle)] flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-xl bg-[#7A8B72]/15 text-[#7A8B72] flex items-center justify-center shrink-0">
+            <div className="w-10 h-10 rounded-xl bg-[#56754b]/15 text-[#56754b] flex items-center justify-center shrink-0">
               <Sparkles className="w-5 h-5" />
             </div>
             <div>

@@ -32,12 +32,12 @@ export function AboutSection() {
       content:
         "Deep commercial experience in WordPress and Shopify ecosystems. Developing bespoke themes, custom template structures, WooCommerce checkouts, and Liquid sections that align seamlessly with business requirements and deliver proven sales conversion.",
       icon: Layout,
-      color: "#7A8B72",
+      color: "#56754b",
       highlights: ["Custom WordPress themes & layouts", "Shopify Liquid template customization", "Complex form funnels", "Speed & security hardening"]
     },
     {
       title: "3. UI/UX Polish & AI-Accelerated Engineering",
-      subtitle: "10 Years UI/UX Craft & 10 Years Prompt Engineering",
+      subtitle: "UI/UX Craft & AI Prompt Engineering",
       content:
         "Bridging the divide between high-end digital design and robust code. Utilizing prompt engineering to accelerate prototyping cycles, optimize complex algorithms, and test user experiences under diverse international conditions.",
       icon: Sparkles,
@@ -52,7 +52,7 @@ export function AboutSection() {
         {/* Section Header */}
         <div className="max-w-3xl mb-16">
           <span className="text-xs font-semibold uppercase tracking-wider text-[#E76F51]">
-            About Muhammad Abubakar
+            About Muhammad Shahzaman
           </span>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-editorial font-bold text-[var(--text-primary)] mt-2 mb-6">
             Where Technical Precision Meets Bespoke Digital Design.
@@ -69,14 +69,14 @@ export function AboutSection() {
             <div className="relative w-full max-w-md aspect-square rounded-3xl p-8 bg-[var(--bg-surface)] border border-[var(--border-subtle)] shadow-xl flex flex-col items-center justify-between overflow-hidden group">
               {/* Animated Geometry Background */}
               <div
-                className="absolute inset-0 bg-gradient-to-tr from-[#E76F51]/10 via-[#C9A66B]/10 to-[#7A8B72]/10 opacity-70 group-hover:opacity-100 transition-opacity duration-500"
+                className="absolute inset-0 bg-gradient-to-tr from-[#E76F51]/10 via-[#C9A66B]/10 to-[#56754b]/10 opacity-70 group-hover:opacity-100 transition-opacity duration-500"
                 aria-hidden="true"
               />
 
               {/* Central Geometric Monogram Emblem */}
               <div className="relative z-10 w-full flex items-center justify-between">
                 <span className="text-xs font-mono font-semibold text-[#E76F51] uppercase tracking-widest">
-                  Brand Identity // MA
+                  Brand Identity // MS
                 </span>
                 <span className="text-[11px] font-mono px-2 py-0.5 rounded-full bg-[var(--bg-card)] text-[var(--text-secondary)] border border-[var(--border-subtle)]">
                   Active Verified
@@ -89,10 +89,10 @@ export function AboutSection() {
                   {/* Outer Orbit */}
                   <div className="w-48 h-48 rounded-full border border-dashed border-[#E76F51]/30 animate-spin" style={{ animationDuration: "30s" }} />
                   {/* Middle Orbit */}
-                  <div className="absolute w-36 h-36 rounded-full border border-dashed border-[#7A8B72]/40 animate-spin" style={{ animationDuration: "20s", animationDirection: "reverse" }} />
+                  <div className="absolute w-36 h-36 rounded-full border border-dashed border-[#56754b]/40 animate-spin" style={{ animationDuration: "20s", animationDirection: "reverse" }} />
                   {/* Inner Halo */}
-                  <div className="absolute w-24 h-24 rounded-full bg-gradient-to-br from-[#E76F51] via-[#C9A66B] to-[#7A8B72] opacity-90 shadow-lg flex items-center justify-center text-white font-bold text-2xl font-editorial tracking-wider">
-                    MA
+                  <div className="absolute w-24 h-24 rounded-full bg-gradient-to-br from-[#E76F51] via-[#C9A66B] to-[#56754b] opacity-90 shadow-lg flex items-center justify-center text-white font-bold text-2xl font-editorial tracking-wider">
+                    MS
                   </div>
                 </div>
               </div>
